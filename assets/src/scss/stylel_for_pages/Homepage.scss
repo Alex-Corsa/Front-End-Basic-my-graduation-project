@@ -1,0 +1,186 @@
+/*Шапка*/
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    &__line {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;        
+        color: white;
+    }
+    // &__logo {
+    // }
+    // &__logo-img {
+    // }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &__up-string {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    &__lang {
+        display: flex;
+        gap: 10px;
+    }
+    // &__country{
+    // }
+    // &__dot{
+    // }
+    // &__address {
+    // }
+    // &__phone {
+    // }
+    // &__anchor {
+    // }
+    // &__facebook {
+    // }
+    // &__down-string {
+    // }
+    // &__mune {
+    // }
+}
+
+.nav {
+    &__list {
+        display: flex;
+        gap: 15px;
+    }
+    // &__item {
+    //     display: inline-block;
+    // }
+    &__anchor {
+        color: #FFFFFF;
+    }
+}
+
+
+/*1я секция*/
+.section-Splash{    
+    background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+    &__wrapper{
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 178px;
+        position: relative;
+    }
+    &__box-images{
+        position: relative;
+    }
+    // &__bg {
+    // }
+    &__symbol{
+        position: absolute;
+        top: 122px;
+    }
+    &__title{
+        position: absolute;
+        top: 45%;
+        font-size: 38px;
+        line-height: 45px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__shade{
+        position: absolute;
+        height: 200px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background: linear-gradient(180deg, rgba(69, 50, 100, 0) 16.67%, #323264 100%);
+    }
+    &__btn{
+        position: relative;
+        left: 50%;
+    }
+}
+
+/*2я секция*/
+.section-Experiance_Services {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}
+
+.section-Experiance_Services__Experiance {
+    padding-top: 80px;
+    display: flex;
+}
+.section-Experiance_Services__leftBOX {
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: flex-end;
+    // gap: 20px;
+    // flex: 1 0 auto;
+    width: 42%;
+    border-right: 1px solid white;
+    text-align: right;
+}
+.section-Experiance_Services__tagline {
+    margin-right: 40px;
+    padding-bottom: 20px;
+    font-size: 42px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.section-Experiance_Services__tagline:last-child{
+    padding: 0;
+}
+
+.section-Experiance_Services__rightBOX {
+    max-width: 600px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    // gap: 20px;
+}
+.section-Experiance_Services__title {
+    margin-left: 40px;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.section-Experiance_Services__descriptionBOX {
+    margin-left: 40px;
+    font-size: 21px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.section-Experiance_Services__anchor {
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.section-Experiance_Services__presentation {
+    font-size: 42px;
+    line-height: 50px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.section-Experiance_Services__blocks{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 58px;
+}
+// .section-Experiance_Services__block {
+// }
+// .section-Experiance_Services__icon {
+// }
+// .section-Experiance_Services__sabtitle {
+// }
+// .section-Experiance_Services__text {
+// }
+
+/*3я секция*/
+/*4я секция*/
+/*5я секция*/

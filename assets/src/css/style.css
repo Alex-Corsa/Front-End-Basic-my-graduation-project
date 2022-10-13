@@ -1,0 +1,273 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "TT Norms Bold";
+  src: url(/Front-End-Basic-my-graduation-project/assets/fonts/TTNorms-Bold.eot) format("eot");
+  src: url(/Front-End-Basic-my-graduation-project/assets/fonts/TTNorms-Bold.ttf) format("ttf");
+  src: url(/Front-End-Basic-my-graduation-project/assets/fonts/TTNorms-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: "TT Norms Medium";
+  src: url(/Front-End-Basic-my-graduation-project/assets/fonts/TTNorms-Medium.eot) format("eot");
+  src: url(/Front-End-Basic-my-graduation-project/assets/fonts/TTNorms-Medium.ttf) format("ttf");
+  src: url(/Front-End-Basic-my-graduation-project/assets/fonts/TTNorms-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "TT Norms Regular";
+  src: url(/Front-End-Basic-my-graduation-project/assets/fonts/TTNorms-Regular.eot) format("eot");
+  src: url(/Front-End-Basic-my-graduation-project/assets/fonts/TTNorms-Regular.ttf) format("ttf");
+  src: url(/Front-End-Basic-my-graduation-project/assets/fonts/TTNorms-Regular.woff) format("woff");
+}
+/*
+@mixin text ($f-st,$f-w,$f-s,$l-h,$t-al,$col) {
+    font-style: $f-st;
+    font-weight: $f-w;
+    font-size: $f-s;
+    line-height: $l-h;
+    text-align: $t-al;
+    color: $col;
+}
+
+@mixin some_text ($f-s,$l-h) {
+    font-size: $f-s;
+    line-height: $l-h;
+}
+*/
+.style-hero {
+  font-family: "TT Norms Bold";
+  font-size: 42px;
+  line-height: 42px;
+  line-height: 100%;
+}
+
+.style-heroMOBILE {
+  font-family: "TT Norms Bold";
+  font-size: 32px;
+  line-height: 32px;
+  line-height: 100%;
+}
+
+.style-h2 {
+  font-family: "TT Norms Medium";
+  font-size: 32px;
+  line-height: 32px;
+  line-height: 100%;
+}
+
+.style-h2MOBILE {
+  font-family: "TT Norms Medium";
+  font-size: 22px;
+  line-height: 22px;
+  line-height: 100%;
+}
+
+.style-h3 {
+  font-family: "TT Norms Medium";
+  font-size: 24px;
+  line-height: 42px;
+  line-height: 100%;
+}
+
+.style-h3MOBILE {
+  font-family: "TT Norms Medium";
+  font-size: 18px;
+  line-height: 18px;
+  line-height: 100%;
+}
+
+.style-h3Caps {
+  font-family: "TT Norms Bold";
+  font-size: 14px;
+  line-height: 14px;
+  line-height: 100%;
+  letter-spacing: 1px;
+}
+
+.style-h4 {
+  font-family: "TT Norms Medium";
+  font-size: 18px;
+  line-height: 18px;
+  line-height: 100%;
+}
+
+.style-paragraph {
+  font-family: "TT Norms Regular";
+  font-size: 18px;
+  line-height: 26px;
+  line-height: 144.44%;
+}
+
+.style-paragrahMin {
+  font-family: "TT Norms Regular";
+  font-size: 16px;
+  line-height: 22px;
+  line-height: 137.5%;
+}
+
+.style-introduction {
+  font-family: "TT Norms Regular";
+  font-size: 21px;
+  line-height: 30px;
+  line-height: 142.86%;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  box-sizing: content-box;
+}
+
+/*Шапка*/
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.header__line {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.header__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.header__up-string {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header__lang {
+  display: flex;
+  gap: 10px;
+}
+
+.nav__list {
+  display: flex;
+  gap: 15px;
+}
+.nav__anchor {
+  color: #FFFFFF;
+}
+
+/*1я секция*/
+.section-Splash {
+  background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+}
+.section-Splash__wrapper {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 178px;
+  position: relative;
+}
+.section-Splash__box-images {
+  position: relative;
+}
+.section-Splash__symbol {
+  position: absolute;
+  top: 122px;
+}
+.section-Splash__title {
+  position: absolute;
+  top: 45%;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.section-Splash__shade {
+  position: absolute;
+  height: 200px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: linear-gradient(180deg, rgba(69, 50, 100, 0) 16.67%, #323264 100%);
+}
+.section-Splash__btn {
+  position: relative;
+  left: 50%;
+}
+
+/*2я секция*/
+.section-Experiance_Services {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}
+
+.section-Experiance_Services__Experiance {
+  padding-top: 80px;
+  display: flex;
+}
+
+.section-Experiance_Services__leftBOX {
+  width: 42%;
+  border-right: 1px solid white;
+  text-align: right;
+}
+
+.section-Experiance_Services__tagline {
+  margin-right: 40px;
+  padding-bottom: 20px;
+  font-size: 42px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+.section-Experiance_Services__tagline:last-child {
+  padding: 0;
+}
+
+.section-Experiance_Services__rightBOX {
+  max-width: 600px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-Experiance_Services__title {
+  margin-left: 40px;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.section-Experiance_Services__descriptionBOX {
+  margin-left: 40px;
+  font-size: 21px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.section-Experiance_Services__anchor {
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.section-Experiance_Services__presentation {
+  font-size: 42px;
+  line-height: 50px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.section-Experiance_Services__blocks {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 40px;
+  column-gap: 58px;
+}
+
+/*3я секция*/
+/*4я секция*/
+/*5я секция*/
+
+/*# sourceMappingURL=style.css.map */

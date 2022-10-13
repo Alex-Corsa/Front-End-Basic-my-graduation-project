@@ -1,0 +1,20 @@
+// Fonts:
+@import "./components/fonts.scss";
+
+// Mixin:
+@import "./components/mixin.scss";
+
+// Basic styles:
+@import "./components/basic_style.scss";
+
+// Connecting page styles:
+@import "./stylel_for_pages/Homepage.scss";
+@import "./stylel_for_pages/About.scss";
+@import "./stylel_for_pages/Contact.scss";
+@import "./stylel_for_pages/Contact_Popup.scss";
+@import "./stylel_for_pages/Publications.scss";
+@import "./stylel_for_pages/Publications_Entry.scss";
+@import "./stylel_for_pages/Service_Page.scss";
+@import "./stylel_for_pages/Services.scss";
+@import "./stylel_for_pages/Team.scss";
+@import "./stylel_for_pages/Team_member_Page.scss";
